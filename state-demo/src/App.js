@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './_component/header';
+import Counter from './_component/counter';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Header />
+        <Counter />
         <a
           className="App-link"
           href="https://reactjs.org"
