@@ -36,7 +36,7 @@ function MyListAdv() {
         }
     ];
 
-    const personList = persons.map(p => <MyListAdvChild props={p} />);
+    const personList = persons.map(p => <MyListAdvChild key={p.id} props={p} />);
     return (
         <div>
            {personList}
