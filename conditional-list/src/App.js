@@ -4,6 +4,8 @@ import './App.css';
 import MyConditional from './_components/conditional';
 import MyList from './_components/MyList';
 
+import MyListAdv from './_components/MyListAdv';
+
 function App() {
   return (
     <div className="App">
@@ -11,6 +13,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <MyConditional />
         <MyList />
+        <MyListAdv />
         <a
           className="App-link"
           href="https://reactjs.org"
